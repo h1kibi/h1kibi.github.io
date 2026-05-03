@@ -8,7 +8,7 @@ tagline: A blog by a computer science student
 description: >-
   A blog by a computer science student. Posts about Infra, Algorithm, and Security.
 
-url: ""
+url: "https://h1kibi.github.io"
 baseurl: ""
 
 github:
@@ -18,7 +18,7 @@ social:
   name: hikibi
   email: ""
   links:
-    - https://github.com/hkb
+    - https://github.com/h1kibi
 
 theme_mode: dark
 

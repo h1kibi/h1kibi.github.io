@@ -1,42 +1,32 @@
 ---
-title: "Hello World: First Post"
+title: "Hello World"
 date: 2026-05-03 19:00:00 +0800
 categories: [Infra]
-tags: [jekyll, blog]
+tags: [jekyll, blog, setup]
 ---
 
-## Why Blog?
+## Why
 
-Not for traffic. Not for money.
+A place to write things down. Notes, ideas, things I learned.
 
-Just a place to dump what's in my head.
+No audience in mind. Just for myself.
 
-```python
-def think():
-    ideas = read_books() + write_code() + debug_life()
-    return crystallize(ideas)
-```
-
-## Tech Stack
+## Stack
 
 | Component | Choice |
 |-----------|--------|
 | Engine | Jekyll 4.4 |
-| Theme | chirpy |
+| Theme | Chirpy + custom hacker CSS |
+| Font | Press Start 2P / VT323 |
 | Hosting | GitHub Pages |
-| Editor | Markdown |
+| Editor | Neovim + Markdown |
 
-## TODO
+## What's Next
 
-- [ ] Write tech notes
-- [ ] Document projects
-- [ ] Record debugging stories
-
-> "The best time to start a blog was 10 years ago. The second best time is now."
-
----
+- [ ] Write more posts
+- [ ] Customize further
+- [ ] Keep it alive
 
 ```bash
-$ git commit -m "first post"
-$ git push origin main
+$ echo "hello world" > /dev/blog
 ```

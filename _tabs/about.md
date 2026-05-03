@@ -3,8 +3,15 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About
+> CS student. Learning by doing.
 
-A blog by a computer science student.
+Topics I write about:
 
-Topics: Infra, Algorithm, Security.
+- **Infra** — tools, workflows, dev environment
+- **Algorithm** — data structures, leetcode, problem solving
+- **Security** — web security, CTF, fundamentals
+
+```
+$ whoami
+hikibi
+```
