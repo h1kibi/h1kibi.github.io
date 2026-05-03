@@ -1,0 +1,283 @@
+/* Hacker Terminal Style Overrides for Chirpy Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+/* Override CSS variables for dark mode */
+[data-mode="dark"] {
+  /* Core colors - pure terminal black & green */
+  --main-bg: #000000;
+  --sidebar-bg: #000000;
+  --topbar-bg: rgba(0, 0, 0, 0.85);
+
+  /* Text - green terminal style */
+  --text-color: #00ff00;
+  --text-muted-color: #00aa00;
+  --text-muted-highlight-color: #00cc00;
+  --heading-color: #00ff00;
+  --label-color: #00cc00;
+
+  /* Links */
+  --link-color: #00ff00;
+  --link-underline-color: #00aa00;
+
+  /* Borders - dashed terminal style */
+  --main-border-color: rgba(0, 255, 0, 0.3);
+  --sidebar-border-color: rgba(0, 255, 0, 0.2);
+
+  /* Sidebar */
+  --site-title-color: #00ff00;
+  --site-subtitle-color: #00aa00;
+  --sidebar-muted-color: #00aa00;
+  --sidebar-active-color: #00ff00;
+  --sidebar-hover-bg: rgba(0, 255, 0, 0.05);
+  --sidebar-btn-bg: #0a0a0a;
+  --sidebar-btn-color: #00cc00;
+
+  /* Buttons */
+  --button-bg: #0a0a0a;
+  --btn-border-color: rgba(0, 255, 0, 0.3);
+  --btn-backtotop-color: #00ff00;
+  --btn-backtotop-border-color: rgba(0, 255, 0, 0.2);
+
+  /* Cards */
+  --card-bg: #0a0a0a;
+  --card-header-bg: #0f0f0f;
+  --card-hover-bg: #1a1a1a;
+
+  /* Home page */
+  --post-list-text-color: #00cc00;
+
+  /* Posts */
+  --toc-highlight: #00ff00;
+  --toc-popup-border-color: rgba(0, 255, 0, 0.2);
+  --tag-hover: rgba(0, 255, 0, 0.1);
+  --tb-odd-bg: #0a0a0a;
+  --tb-even-bg: #050505;
+  --tb-border-color: rgba(0, 255, 0, 0.1);
+  --footnote-target-bg: rgba(0, 255, 0, 0.1);
+
+  /* Tags */
+  --tag-border: rgba(0, 255, 0, 0.3);
+  --tag-shadow: rgba(0, 255, 0, 0.1);
+  --dash-color: rgba(0, 255, 0, 0.2);
+  --search-tag-bg: #0a0a0a;
+
+  /* Categories */
+  --categories-border: rgba(0, 255, 0, 0.2);
+  --categories-hover-bg: rgba(0, 255, 0, 0.05);
+  --categories-icon-hover-color: #00ff00;
+
+  /* Archive */
+  --timeline-node-bg: #00ff00;
+  --timeline-color: rgba(0, 255, 0, 0.2);
+  --timeline-year-dot-color: #00ff00;
+
+  /* Code - terminal style */
+  --language-border-color: rgba(0, 255, 0, 0.2);
+  --highlight-bg-color: #0a0a0a;
+  --highlighter-rouge-color: #00ff00;
+  --highlight-lineno-color: #00aa00;
+  --inline-code-bg: rgba(0, 255, 0, 0.05);
+  --code-color: #00ff00;
+  --code-header-text-color: #00aa00;
+  --code-header-muted-color: rgba(0, 255, 0, 0.1);
+  --code-header-icon-color: #00cc00;
+  --clipboard-checked-color: #00ff00;
+  --filepath-text-color: #00cc00;
+
+  /* Checkbox */
+  --checkbox-color: #00aa00;
+  --checkbox-checked-color: #00ff00;
+
+  /* Search */
+  --search-border-color: rgba(0, 255, 0, 0.3);
+  --search-icon-color: #00aa00;
+  --input-focus-border-color: #00ff00;
+
+  /* Other */
+  --mask-bg: rgba(0, 0, 0, 0.8);
+  --blockquote-border-color: rgba(0, 255, 0, 0.2);
+  --blockquote-text-color: #00aa00;
+  --kbd-wrap-color: #00aa00;
+  --kbd-text-color: #00ff00;
+  --kbd-bg-color: #0a0a0a;
+
+  /* Prompts */
+  --prompt-text-color: rgba(0, 255, 0, 0.8);
+  --prompt-tip-bg: rgba(0, 255, 0, 0.05);
+  --prompt-tip-icon-color: #00ff00;
+  --prompt-info-bg: rgba(0, 255, 0, 0.05);
+  --prompt-info-icon-color: #00cc00;
+  --prompt-warning-bg: rgba(0, 170, 0, 0.1);
+  --prompt-warning-icon-color: #00aa00;
+  --prompt-danger-bg: rgba(0, 100, 0, 0.1);
+  --prompt-danger-icon-color: #008800;
+
+  /* Buttons share */
+  --btn-share-color: #00aa00;
+  --btn-share-hover-color: #00ff00;
+  --btn-patinator-text-color: #00ff00;
+  --btn-paginator-hover-color: rgba(0, 255, 0, 0.1);
+
+  /* Avatar */
+  --avatar-border-color: rgba(0, 255, 0, 0.3);
+
+  /* Image */
+  --img-bg: radial-gradient(circle, #000000 0%, #0a0a0a 100%);
+
+  /* Shimmer */
+  --shimmer-bg: linear-gradient(
+    90deg,
+    rgba(0, 255, 0, 0%) 0%,
+    rgba(0, 255, 0, 10%) 50%,
+    rgba(0, 255, 0, 0%) 100%
+  );
+}
+
+/* Global font override - pixel style */
+body {
+  font-family: 'VT323', monospace !important;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', monospace !important;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.post-title h1 {
+  font-family: 'Press Start 2P', monospace !important;
+  font-size: 16px;
+}
+
+code, pre, .highlight {
+  font-family: 'VT323', monospace !important;
+  font-size: 18px;
+}
+
+#sidebar .sidebar-heading {
+  font-family: 'Press Start 2P', monospace !important;
+  font-size: 10px;
+}
+
+/* Selection style */
+::selection {
+  background: rgba(0, 255, 0, 0.99);
+  color: #000;
+}
+
+::-moz-selection {
+  background: rgba(0, 255, 0, 0.99);
+  color: #000;
+}
+
+/* Links - no underline by default */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+/* Dashed borders for terminal feel */
+#sidebar {
+  border-right: dashed 1px rgba(0, 255, 0, 0.3) !important;
+}
+
+.sidebar-bottom {
+  border-top: dashed 1px rgba(0, 255, 0, 0.2) !important;
+}
+
+/* List style - dash prefix */
+.post-list > li:before {
+  content: "- ";
+  color: #00ff00;
+}
+
+/* Code blocks - terminal style */
+.highlight pre, pre {
+  border: none !important;
+  background-color: #0a0a0a !important;
+}
+
+/* Header navigation - terminal style */
+#page-topbar {
+  border-bottom: dashed 1px rgba(0, 255, 0, 0.2) !important;
+}
+
+/* Tab active - green underline */
+.nav-link.active {
+  color: #00ff00 !important;
+  border-bottom-color: #00ff00 !important;
+}
+
+/* Post title hover */
+.post-title a:hover {
+  color: #00ff00 !important;
+  background-color: rgba(0, 255, 0, 0.05);
+}
+
+/* Tags - terminal style */
+.tag-label {
+  border-style: dashed !important;
+}
+
+/* Categories card */
+.categories .card-header {
+  border-bottom: dashed 1px rgba(0, 255, 0, 0.2) !important;
+}
+
+/* Timeline - green dots */
+#archives .timeline .timeline-item::before {
+  background-color: #00ff00;
+}
+
+/* Scrollbar - terminal style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 0, 0.3);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 0, 0.5);
+}
+
+/* Post meta - green text */
+.post-meta {
+  color: #00aa00;
+}
+
+/* Footer */
+#post-footer {
+  border-top: dashed 1px rgba(0, 255, 0, 0.2) !important;
+}
+
+/* Search input - terminal style */
+#search-input {
+  caret-color: #00ff00;
+}
+
+/* Light mode - keep dark even if light is selected */
+[data-mode="light"] {
+  /* Force dark mode colors */
+  --main-bg: #000000;
+  --sidebar-bg: #000000;
+  --text-color: #00ff00;
+  --heading-color: #00ff00;
+  --link-color: #00ff00;
+  --sidebar-bg: #000000;
+  --sidebar-border-color: rgba(0, 255, 0, 0.2);
+}

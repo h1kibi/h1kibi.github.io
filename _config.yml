@@ -1,0 +1,81 @@
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Asia/Shanghai
+
+title: hikibi's blog
+tagline: A blog by a computer science student
+description: >-
+  A blog by a computer science student. Posts about Infra, Algorithm, and Security.
+
+url: ""
+baseurl: ""
+
+github:
+  username: h1kibi
+
+social:
+  name: hikibi
+  email: ""
+  links:
+    - https://github.com/hkb
+
+theme_mode: dark
+
+toc: true
+
+comments:
+  provider:
+
+paginate: 10
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+sass:
+  style: compressed
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - README.md
+  - LICENSE
+  - Gemfile.lock
