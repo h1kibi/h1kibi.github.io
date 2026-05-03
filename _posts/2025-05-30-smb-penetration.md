@@ -2,6 +2,6 @@
 title: "SMB penetration"
 date: 2025-05-30 00:00:00 +0800
 categories: [Security, Penetration]
-tags: [security, pentest]
+tags: [security, penetration]
 ---
 

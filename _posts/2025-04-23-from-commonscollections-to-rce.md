@@ -2,7 +2,7 @@
 title: "From CommonsCollections to RCE"
 date: 2025-04-23 00:00:00 +0800
 categories: [Security, CTF]
-tags: [security, ctf, java]
+tags: [security, ctf, java, compiler-collections]
 ---
 
 > 什么? DT 神已经在我电脑上弹计算器了?

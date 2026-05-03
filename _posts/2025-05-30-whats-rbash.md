@@ -2,7 +2,7 @@
 title: "`What's Rbash`"
 date: 2025-05-30 00:00:00 +0800
 categories: [Security, Penetration]
-tags: [security, pentest]
+tags: [security, penetration]
 ---
 
 `rbash（The restricted mode of bash）`，限制型`bash`。它与一般shell的区别在于会限制一些行为，让一些命令无法执行。
