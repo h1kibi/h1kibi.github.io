@@ -15,10 +15,12 @@ github:
   username: h1kibi
 
 social:
-  name: hikibi
+  name: h1kibi
   email: ""
   links:
     - https://github.com/h1kibi
+
+avatar: "https://avatars.githubusercontent.com/u/182625057?v=4"
 
 theme_mode: dark
 
