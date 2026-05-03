@@ -1,7 +1,7 @@
 ---
 title: "Server-Side Request Forgery"
 date: 2025-04-21 00:00:00 +0800
-categories: [Security]
+categories: [Security, CTF]
 tags: [security, ctf]
 ---
 

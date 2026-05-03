@@ -1,7 +1,7 @@
 ---
 title: "From CommonsCollections to RCE"
 date: 2025-04-23 00:00:00 +0800
-categories: [Security]
+categories: [Security, CTF]
 tags: [security, ctf, java]
 ---
 
