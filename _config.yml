@@ -3,10 +3,10 @@ theme: jekyll-theme-chirpy
 lang: en
 timezone: Asia/Shanghai
 
-title: hikibi's blog
-tagline: A blog by a computer science student
+title: h1kibi
+tagline: Security · Infra · Algorithms
 description: >-
-  A blog by a computer science student. Posts about Infra, Algorithm, and Security.
+  Notes and reflections on security, infrastructure, algorithms, and systems.
 
 url: "https://h1kibi.github.io"
 baseurl: ""
